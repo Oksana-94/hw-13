@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>hw 13</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <section>
+                <div class="container">
+                    <div class="sub-container">
+                        <div class="switch__inner">
+                            <input type="checkbox" name="switch" id="switch">
+                            <label for="switch">
+                                <span>Вхід</span>
+                                <span>Реєстрація</span>
+                            </label>
+                        </div>
+                        <form name="form" method="get">
+                            <h1>Вхід</h1>
+                            <div class="data">
+                                <input id="email" class="email" name="email" type="email" placeholder="Введіть email">
+                                <!-- <label for="email"></label> -->
+                                <input id="password" class="password" name="password" type="password" placeholder="Пароль">
+                                <!-- <label for="password"></label> -->
+                            </div>
+                            <div class="remember">
+                                <div class="checkbox-group">
+                                    <input type="checkbox" id="remember" name="checkbox">
+                                    <label for="remember">Запам'ятати мене</label>
+                                </div>
+                                <a class="green" href="#">Забули пароль?</a>
+                            </div>
+                            <button>Увійти</button>
+                        </form>
+                            <div class="register">
+                                <p class="green">Ще немає акаунта?</p>
+                                <a href="#">Зареєструватися</a>
+                            </div>
+                            <p class="paragraph green">Або увійдіть через</p>
+                            <nav>
+                                <ul class="nav">
+                                    <li>
+                                        <a href="#">
+                                            <svg class="facebook">
+                                                <use href="images/sprite.svg#facebook" ></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg>
+                                                <use href="images/sprite.svg#instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg>
+                                                <use href="images/sprite.svg#linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
